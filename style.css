@@ -1,0 +1,33 @@
+body {
+    background: linear-gradient(to bottom left, #222, #000);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.testo {
+    color: #fff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.titolo {
+    text-decoration: underline;
+}
+
+.testo_leggero {
+    font-weight: lighter;
+}
+
+#container_principale {
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+    padding: 10px;
+    background-color: #27272750;
+    backdrop-filter: blur(5px);
+    border: solid 5px #333;
+    border-radius: 40px;
+}
