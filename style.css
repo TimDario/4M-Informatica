@@ -8,6 +8,10 @@ body {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 .testo {
     color: #fff;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -17,17 +21,108 @@ body {
     text-decoration: underline;
 }
 
+.titolo_principale {
+    font-size: 50px;
+}
+
 .testo_leggero {
-    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#immagine_HTML {
+    width: 270px;
+    height: 270px;
+
+    background-color: #aaaaaa55;
+
+    padding: 10px;
+    backdrop-filter: blur(5px);
+    border: solid 5px #333;
+    border-radius: 40px;
+
+    transition: border-color 0.25s;
+}
+#immagine_HTML:hover {
+    border-color: #fff;
+
+    transition: border-color 0.25s;
+}
+
+#immagine_CSS {
+    width: 270px;
+    height: 270px;
+
+    background-color: #aaaaaa55;
+
+    padding: 10px;
+    backdrop-filter: blur(5px);
+    border: solid 5px #333;
+    border-radius: 40px;
+
+    transition: border-color 0.25s;
+}
+#immagine_CSS:hover {
+    border-color: #fff;
+
+    transition: border-color 0.25s;
 }
 
 #container_principale {
     display: flex;
     justify-content: space-between;
-    width: 50vw;
+    height: 300px;
+    width: 1000px;
     padding: 10px;
     background-color: #27272750;
     backdrop-filter: blur(5px);
     border: solid 5px #333;
     border-radius: 40px;
+
+    transition: background-color 0.25s,
+                width 0.25s,
+                height 0.25s,
+                border-color 0.25s;
+}
+#container_principale:hover {
+    height: 310px;
+    width: 1050px;
+    background-color: #44444450;
+    border-color: #555;
+
+    transition: background-color 0.25s,
+                width 0.25s,
+                height 0.25s,
+                border-color 0.25s;
+}
+
+#pulsante_CSS {
+    text-align: center;
+    font-size: 15px;
+    height: 20px;
+    width: 100px;
+    padding: 10px;
+    background-color: #27272750;
+    backdrop-filter: blur(5px);
+    border: solid 3px #333;
+    border-radius: 10px;
+
+    transition: background-color 0.25s,
+                width 0.25s,
+                height 0.25s,
+                font-size 0.25s,
+                border-color 0.25s;
+}
+#pulsante_CSS:hover {
+    font-size: 20px;
+    height: 25px;
+    width: 125px;
+    background-color: #44444450;
+    border-color: #555;
+
+    transition: background-color 0.25s,
+                width 0.25s,
+                height 0.25s,
+                font-size 0.25s,
+                border-color 0.25s;
 }
